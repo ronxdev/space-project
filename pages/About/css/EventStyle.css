@@ -1,0 +1,22 @@
+
+
+about-us-textbox-1, p{
+	border: 2px solid;
+	border-color: black;
+	border-radius: 2px;
+	border-spacing: 10px;
+	font-size: 1em;
+	padding: 1em;
+} 
+
+about-us-textbox-2, p{
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10px;
+	border-spacing: 10px;
+	font-size: 1em;
+} 
+
+h2 {
+	font-family:"Anton";
+}

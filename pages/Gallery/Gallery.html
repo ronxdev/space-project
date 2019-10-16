@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+       <link rel="stylesheet" href="css/GalleryStyle.css">
+       <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>0pen_5pace Gallery</title>
+    </head>
+<body id="home" class="scrollspy">
+      <!-- Navbar -->
+      <div class="navbar-fixed">
+        <nav class="black">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="/" class="brand-logo"><img src="img\LOGO2C.png"></a>
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+
+                 <li>
+                  <a href="http://0pen5pace.com/pages/Music/Music.html">Music</a>
+                </li>
+                <li>
+                  <a href="http://0pen5pace.com/pages/Film/Film.html">Film</a>
+                </li>
+                <li>
+                  <a href="http://0pen5pace.com/pages/Events/Events.html">Events</a>
+                </li>
+                <li>
+                    <a href="http://0pen5pace.com/pages/News/News.html">News</a>
+                  </li>
+                  <li>
+                    <a href="http://0pen5pace.com/pages/Gallery/Gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="http://0pen5pace.com/pages/About/About.html">About Us</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+           <ul class="sidenav" id="mobile-nav">
+
+                
+                 <li>
+                  <a href="http://0pen5pace.com/pages/Music/Music.html">Music</a>
+                </li>
+                <li>
+                  <a href="http://0pen5pace.com/pages/Film/Film.html">Film</a>
+                </li>
+                <li>
+                  <a href="http://0pen5pace.com/pages/Events/Events.html">Events</a>
+                </li>
+                <li>
+                    <a href="http://0pen5pace.com/pages/News/News.html">News</a>
+                  </li>
+                  <li>
+                    <a href="http://0pen5pace.com/pages/Gallery/Gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="http://0pen5pace.com/pages/About/About.html">About Us</a>
+                  </li>
+
+                </ul>
+
+
+<section id="Gallary" class="section section-about scrollspy">
+                  <div class="container">
+                    <div class="row">
+                      <h4 class="center"><a href="#" id="small-logo" class="brand-logo"><img src="img\GalleryHead7.png" width="100%"></a></h4>
+                    </div>
+                  </div>
+                </section>
+
+                  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+  </div>
+
+  <!--JavaScript at end of body for optimized loading-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+   var instance = M.Carousel.getInstance(elem);
+
+  // Material Boxed
+       const mb = document.querySelectorAll('.materialboxed');
+       M.Materialbox.init(mb, {});
+
+       // Scrollspy
+       const ss = document.querySelectorAll('.scrollspy');
+       M.Scrollspy.init(ss, {});
+
+</script>
+
+
+ 
+</body>
+</html>
